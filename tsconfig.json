@@ -1,0 +1,28 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@nxext-demo/my-library": ["libs/my-library/src/index.ts"],
+      "@nxext-demo/my-library/loader": ["dist/libs/my-library/loader"],
+      "@nxext-demo/my-library-angular": [
+        "libs/my-library-angular/src/index.ts"
+      ],
+      "@nxext-demo/my-library-react": ["libs/my-library-react/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

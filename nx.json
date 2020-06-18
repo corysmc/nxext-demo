@@ -1,0 +1,62 @@
+{
+  "npmScope": "nxext-demo",
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/workspace/tasks-runners/default",
+      "options": {
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e",
+          "build-storybook"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "my-library": {
+      "tags": []
+    },
+    "my-library-angular": {
+      "tags": []
+    },
+    "app-angular": {
+      "tags": []
+    },
+    "app-angular-e2e": {
+      "tags": [],
+      "implicitDependencies": [
+        "app-angular"
+      ]
+    },
+    "app-react": {
+      "tags": []
+    },
+    "app-react-e2e": {
+      "tags": [],
+      "implicitDependencies": [
+        "app-react"
+      ]
+    },
+    "my-library-react": {
+      "tags": []
+    },
+    "my-library-e2e": {
+      "tags": [],
+      "implicitDependencies": [
+        "my-library"
+      ]
+    }
+  }
+}
