@@ -10,11 +10,11 @@ export const config: Config = {
   outputTargets: [
     reactOutputTarget({
       componentCorePackage: '@nxext-demo/my-library',
-      proxiesFile: '../../../libs/my-library-react/src/components.ts',
+      proxiesFile: '../../../libs/my-library-react/src/generated/components.ts',
     }),
     angularOutputTarget({
       componentCorePackage: '@nxext-demo/my-library',
-      directivesProxyFile: '../../../libs/my-library-angular/src/directives/proxies.ts',
+      directivesProxyFile: '../../../libs/my-library-angular/src/generated/directives/proxies.ts',
       valueAccessorConfigs: angularValueAccessorBindings
     }),
     {
