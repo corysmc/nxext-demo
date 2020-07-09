@@ -57,6 +57,9 @@
       "implicitDependencies": [
         "my-library"
       ]
+    },
+    "stencil-pwa": {
+      "tags": []
     }
   }
 }

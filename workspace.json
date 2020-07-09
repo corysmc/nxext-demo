@@ -423,6 +423,47 @@
           }
         }
       }
+    },
+    "stencil-pwa": {
+      "projectType": "application",
+      "schematics": {
+        "@nxext/stencil:component": {
+          "style": "css",
+          "storybook": false
+        }
+      },
+      "root": "apps/stencil-pwa",
+      "sourceRoot": "apps/stencil-pwa/src",
+      "architect": {
+        "build": {
+          "builder": "@nxext/stencil:build",
+          "options": {
+            "projectType": "application",
+            "configPath": "apps/stencil-pwa/stencil.config.ts"
+          }
+        },
+        "test": {
+          "builder": "@nxext/stencil:test",
+          "options": {
+            "projectType": "application",
+            "configPath": "apps/stencil-pwa/stencil.config.ts"
+          }
+        },
+        "e2e": {
+          "builder": "@nxext/stencil:e2e",
+          "options": {
+            "projectType": "application",
+            "configPath": "apps/stencil-pwa/stencil.config.ts"
+          }
+        },
+        "serve": {
+          "builder": "@nxext/stencil:serve",
+          "options": {
+            "projectType": "application",
+            "configPath": "apps/stencil-pwa/stencil.config.ts"
+          }
+        }
+      }
     }
   },
   "cli": {
