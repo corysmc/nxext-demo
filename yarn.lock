@@ -2155,10 +2155,10 @@
     yargs "^11.0.0"
     yargs-parser "10.0.0"
 
-"@nxext/stencil@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@nxext/stencil/-/stencil-1.0.0.tgz#5104d1ea88d65aeccf9d66f7e68553acfab28be9"
-  integrity sha512-WSaWuAtaQO8KDp/JjeNgDu+KNq2IpgAJO6l/2JnBpbFNAJwpPztCVZ6+NWma8IHqUbALvvxdikxuZ0cm1ql8/g==
+"@nxext/stencil@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@nxext/stencil/-/stencil-1.0.1.tgz#e06430eee6089ece99b62aefea7b7fd216976cae"
+  integrity sha512-DfyJ7h2oxFwuq61gvX9kuOaoAobxb53LH1KtmG1MdaHlArTUTpLN+DHgu0w/C4rlY7oWorCS9uzZsh0TsLJIGA==
   dependencies:
     "@nrwl/jest" "^9.3.0"
     "@nrwl/workspace" "^9.3.0"

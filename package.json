@@ -58,7 +58,7 @@
     "@nrwl/storybook": "9.5.1",
     "@nrwl/web": "9.5.1",
     "@nrwl/workspace": "9.5.1",
-    "@nxext/stencil": "1.0.0",
+    "@nxext/stencil": "1.0.1",
     "@stencil/angular-output-target": "^0.0.2",
     "@stencil/core": "1.14.0",
     "@stencil/react-output-target": "^0.0.6",
